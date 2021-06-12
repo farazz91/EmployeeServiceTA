@@ -9,7 +9,7 @@ using AuthorizeAttribute = System.Web.Http.AuthorizeAttribute;
 namespace EmployeeServiceTA.Controllers
 {
     [Authorize]
-    public class EmployeeController : ApiController
+    public class EmployeesController : ApiController
     {
         // GET: Employee
       public IEnumerable<Employee>Get()
